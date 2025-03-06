@@ -72,5 +72,5 @@ def results():
         return "Invalid query type."
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    gunicorn main:app
 
